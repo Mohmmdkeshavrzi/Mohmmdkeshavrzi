@@ -3,7 +3,7 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color: #E3E3E3;
+		background-color: #C8B6E2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 		margin-top: 10em;
-		border: 1px solid #eee;
-		background-color: white;
+		border: 1px solid #C8B6E2(200, 181, 181);
+		background-color: #C8B6E2; 
 		padding-bottom: 1em;
 }
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h2 {
-		color: #646464;
+		color: #2a2929;
 		font-size: 3.8em;
 		padding-bottom: 1em;
 }
@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		color: #7A86B6;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		border: 2px solid #7A86B6;
 		border-radius: 50px;
-		background: white;
+		background: #d3d2dd;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 .fa {
 	font-size: 1.2em;
 	padding: 0.1em 0.4em;
-	color: #8a8a8a;
+	color: rgb(73, 92, 131);
 }
 
 .fa:hover {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4c6d86;
+	background-color: #495C83;
 	padding: 6em 4em 5.6em;
 }
 
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-	color: rgb(255, 138, 89);
+	color: rgb(174, 156, 198);
 	font-size: 4em;
 }
 
@@ -179,17 +179,17 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: #fff;
+	background-color: rgb(168, 164, 206);
 }
 
 #work h2 {
-	color: #FF6945;
+	color: #2a2929;
 	margin-bottom: .7em;
 }
 
 
 #work .tag-line {
-	color: #767779;
+	color: #323233;
 	font-size: 1.4em;
 	margin-bottom: 4em;
 }
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details h3 {
-	color: #738182;
+	color: #323233;
 	text-transform: uppercase;
 }
 
@@ -209,16 +209,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #ff7654;
+	color: #535354;
 }
 
 .details i {
-	color: #ff7654;
+	color: #fff;
 	margin-right: 1em;
 }
 
 .details p {
-	color: #738182;
+	color: #535354;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
@@ -226,9 +226,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details a, .details a:link, .details a:active{
-		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
-		background-color: #fff;
+		color: #fff;
+		border: 2px solid #fff !important;
+		background-color: rgb(168, 164, 206);
 }
 
 .details a:hover, .details a:focus {
